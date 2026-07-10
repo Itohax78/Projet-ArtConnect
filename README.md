@@ -9,7 +9,7 @@ Starting from a provided UI and OOP skeleton, the objective of this project was 
 3. **JavaFX UI**: Working with FXML, TableViews, and Controllers.
 
 ## 👥 Team & My Role
-This academic project was developed in collaboration with [Noms de tes camarades].
+This academic project was developed in collaboration.
 
 **My specific contributions:**
 * Designed and created the MySQL database schema.

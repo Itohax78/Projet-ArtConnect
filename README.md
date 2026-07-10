@@ -12,7 +12,6 @@ Starting from a provided UI and OOP skeleton, the objective of this project was 
 **My specific contributions:**
 * Designed and created the MySQL database schema.
 * Implemented the JDBC Data Access Objects (DAOs) to bridge the database with the Java OOP models.
-* [Ajoute d'autres tâches si besoin, ex: écriture des requêtes SQL complexes, tests, etc.]
 
 ## Project Structure
 - `com.project.artconnect.MainApp`: Entry point.

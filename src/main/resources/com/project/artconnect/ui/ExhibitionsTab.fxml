@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.artconnect.ui.ExhibitionController">
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+    <TableView fx:id="exhibitionTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="titleColumn" text="Title" prefWidth="180" />
+            <TableColumn fx:id="galleryColumn" text="Gallery" prefWidth="130" />
+            <TableColumn fx:id="startColumn" text="Start Date" prefWidth="100" />
+            <TableColumn fx:id="endColumn" text="End Date" prefWidth="100" />
+            <TableColumn fx:id="curatorColumn" text="Curator" prefWidth="120" />
+            <TableColumn fx:id="themeColumn" text="Theme" prefWidth="130" />
+        </columns>
+    </TableView>
+    <HBox spacing="10.0" alignment="CENTER_RIGHT">
+        <Button text="Add Exhibition" onAction="#handleAdd" />
+        <Button text="Edit" onAction="#handleEdit" />
+        <Button text="Delete" onAction="#handleDelete" />
+    </HBox>
+</VBox>
